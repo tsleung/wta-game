@@ -1,0 +1,7 @@
+# Deploy target only. Whitelist: nothing may exist at the root except
+# docs/ (served by GitHub Pages), README.md and this file. Content arrives
+# from the private source repo's deploy workflow; never edit here.
+/*
+!/docs/
+!/README.md
+!/.gitignore
